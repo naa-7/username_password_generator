@@ -3,15 +3,18 @@
 ![usr_pswd_gen](https://github.com/naa-7/username_password_generator/blob/main/usr_pswd_gen.png)
 ![result](https://github.com/naa-7/username_password_generator/blob/main/result.png)
 
-The idea of this project is to generate a username using the first three letters of user's firstname and the first four letters of user's lastname.
 
-Also, to generate a password of a length set by user. The password is produced by combining random numbers, symbols, and username and
- 
-then randomly choosing from the list to come up with a password. Zenity is used by the program prompting the user to input their firstname,
+The idea of this project is to generate a username using the first three letters of user's firstname and the first four 
 
-lastname, and length of password which is then directed to the python program. Finally, optional, the username, and password are directed to
+letters of user's lastname. Also, to generate a password of a length set by user. The password is produced by combining 
 
-zenity for displaying through a simple bash script.
+random numbers, symbols, and username and then randomly choosing from the list to come up with a password. Zenity is 
+
+used by the program prompting the user to input their firstname, lastname, and length of password which is then 
+
+directed to the python program. Finally, optional, the username, and password are directed to zenity for displaying
+
+ through a simple bash script.
 
 
 ## There are two ways to run the program
