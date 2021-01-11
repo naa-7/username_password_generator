@@ -23,4 +23,3 @@ Second, username & password output will be displayed on Zenity:
     $ chmod +x python_to_zenity.sh
 
     $ ./python_to_zenity.sh
-# username_password_generator
