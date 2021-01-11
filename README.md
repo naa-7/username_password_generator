@@ -1,5 +1,8 @@
 # username_password_generator
 
+![usr_pswd_gen](https://github.com/naa-7/username_password_generator/blob/main/usr_pswd_gen.png)
+![result](https://github.com/naa-7/username_password_generator/blob/main/result.png)
+
 The idea of this project is to generate a username using the first three letters of user's firstname and the first four letters of user's lastname.
 
 Also, to generate a password of a length set by user. The password is produced by combining random numbers, symbols, and username and
