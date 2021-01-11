@@ -1,7 +1,7 @@
 # username_password_generator
 
-![usr_pswd_gen](https://github.com/naa-7/username_password_generator/blob/main/ussr_pswd_gen.png)
-![result](https://github.com/naa-7/username_password_generator/blob/main/resultt.png)
+![usr_pswd_gen](https://github.com/naa-7/username_password_generator/blob/main/usr_pswd_gen.png)
+![result](https://github.com/naa-7/username_password_generator/blob/main/result.png)
 
 
 The idea of this project is to generate a username using the first three letters of user's firstname and the first four 
