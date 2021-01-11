@@ -8,13 +8,13 @@ The idea of this project is to generate a username using the first three letters
 
 letters of user's lastname. Also, to generate a password of a length set by user. The password is produced by 
 
-combining random numbers, symbols, and username and then randomly choosing from the list to come up with a password.
+combining random numbers, symbols, and username and then randomly choosing from the list to come up with a 
 
-Zenity is used by the program prompting the user to input their firstname, lastname, and length of password which
+password. Zenity is used by the program prompting the user to input their firstname, lastname, and length 
 
-is then directed to the python program. Finally, optional, the username, and password are directed to zenity
+of password which is then directed to the python program. Finally, optional, the username, and password are 
 
-for displaying through a simple bash script.
+directed to zenity for displaying through a simple bash script.
 
 
 ## There are two ways to run the program
