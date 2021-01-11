@@ -32,7 +32,7 @@ def password_generator(username,length):
     return password
 
 def username_password_generator():
-    result = subprocess.Popen('zenity --forms --title="Username & Password Generator" \
+    result = subprocess.Popen('zenity --forms --title="Username & Password Generator" --text="" \
                               --add-entry="First Name" \
                               --add-entry="Last Name" \
                               --add-entry="Password Length [12-16]"', shell=True, stdout=subprocess.PIPE, universal_newlines=True)
