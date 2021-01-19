@@ -22,7 +22,7 @@ def username_generator(first_name, last_name):
 def password_generator(username,length):
     password = ""
     symbols1 = "!@#)?/"
-    symbols2 = "$=%^&*("
+    symbols2 = "~=%^&*("
     num = random.randint(1,100000)
     temp = str(num) + symbols1 + username + symbols2
 
@@ -52,20 +52,12 @@ def username_password_generator():
     #last_name = input("Enter your last name: ")
     flag = 0 
 
-    """
-   
-     while True:
-      length = int(input("Enter length of password [12-16]: "))
-      if length >= 12:
-       break
-      else:
-       print("Error, password length can't be less than [12]")
-    
-    """
     username = username_generator(first_name,last_name)
     password = password_generator(username,length)   
-    print("Username:", username)
-    print("Password:", password)
+    usrnm = "Username: " + username
+    pswrd = "Password: " +  password
+    output = 'echo "' + usrnm + '" >> temp.txt' + " && " + 'echo "' + pswrd + '" >> temp.txt && cat temp.txt | zenity --width=400 --height=130 --title="Result" --text-info && rm temp.txt'
+    call = subprocess.call(output, shell=True)
 
 if __name__ == "__main__":
    main()

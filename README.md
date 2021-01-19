@@ -12,20 +12,11 @@ combining random numbers, symbols, and username and then randomly choosing from 
 
 password. Zenity is used by the program prompting the user to input their firstname, lastname, and length 
 
-of password which is then directed to the python program. Finally, optional, the username, and password are 
+of password which is then directed to the python program. Finally, the username and password are 
 
-directed to zenity for displaying through a simple bash script.
+directed to zenity for display.
 
 
-## There are two ways to run the program
-
- One, username & password output will be displayed in the terminal:
+### To run the program
 
     $ python username_password_generator.py
-
-
-Second, username & password output will be displayed on Zenity:
-   
-    $ chmod +x python_to_zenity.sh
-
-    $ ./python_to_zenity.sh
