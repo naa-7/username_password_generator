@@ -1,5 +1,7 @@
 # username_password_generator
 
+![Open Source Love](https://badges.frapsoft.com/os/v3/open-source.svg?v=103) <img src="https://cdn.rawgit.com/sindresorhus/awesome/d7305f38d29fed78fa85652e3a63e154dd8e8829/media/badge.svg"> <img src="https://img.shields.io/github/stars/naa-7/username_password_generator?style=social"> <img src="https://img.shields.io/github/repo-size/naa-7/username_password_generator"> [![GitHub license](https://img.shields.io/github/license/Naereen/StrapDown.js.svg)](https://github.com/naa-7/username_password_generator/LICENSE)
+
 ![usr_pswd_gen](https://github.com/naa-7/username_password_generator/blob/main/usr_pswd_gen_form.png)
 ![result](https://github.com/naa-7/username_password_generator/blob/main/usr_pswd_gen_result.png)
 
