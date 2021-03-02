@@ -25,7 +25,7 @@ directed to zenity for display.
 
     $ cd username_password_generator/
 
-    $ sh username_password_generator OR python username_password_generator.py
+    $ sh up_generator OR python username_password_generator.py
 
 ## Optional
 
@@ -33,13 +33,13 @@ For easier use of the timer without the need to navigate to its directory and ru
 
 run `install.sh`
     
-    $ chmod +x username_password_generator
+    $ chmod +x up_generator
 
     $ sh install.sh 
 
 Now, you can either open it from terminal
 
-    $ username_password_generator
+    $ up_generator
 
 Or, open it from applications menu
 

@@ -2,6 +2,6 @@
 Name=Username Password Generator
 StartupWMClass=UP Generator
 Comment=Username Password Generator Utility
-Exec=/usr/bin/Username Password Generator
+Exec=/usr/bin/up_generator
 Type=Application
 Categories=Utility;
