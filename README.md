@@ -19,6 +19,31 @@ of password which is then directed to the python program. Finally, the username 
 directed to zenity for display.
 
 
-### To run the program
+## To run the program:
 
-    $ python username_password_generator.py
+    $ cd && git clone https://github.com/naa7/username_password_generator.git
+
+    $ cd username_password_generator/
+
+    $ sh username_password_generator OR python username_password_generator.py
+
+## Optional
+
+For easier use of the timer without the need to navigate to its directory and run the file,
+
+run `install.sh`
+    
+    $ chmod +x username_password_generator
+
+    $ sh install.sh 
+
+Now, you can either open it from terminal
+
+    $ username_password_generator
+
+Or, open it from applications menu
+
+To uninstall, run:
+    
+    $ sh uninstall.sh
+
